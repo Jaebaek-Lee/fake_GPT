@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ChatGPT</title>
+    <script defer type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/gpt_white.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul style="font-size: 14px">
+        <li>
+          <a href="#"
+            ><img
+              src="./img/menu-new.png"
+              style="width: 26px; height: 26px; margin: 0"
+          /></a>
+          <a href="#"
+            ><span>ChatGPT</span> <span style="color: grey">4</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div id="main-content">
+      <img id="title-image" src="./img/gpt_white_stroke.png" />
+      <h3 id="title">How can I help you today?</h3>
+      <div id="title-sections">
+        <div class="wrapper">
+          <div class="section">
+            <div class="section-title">Tell me a fun fact</div>
+            <div class="section-main">about the Roman Empire</div>
+          </div>
+          <div class="section">
+            <div class="section-title">Show me a code snippet</div>
+            <div class="section-main">of a website's sticky header</div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="section">
+            <div class="section-title">Suggest some codenames</div>
+            <div class="section-main">
+              for a project introducing flexible work arrangements
+            </div>
+          </div>
+          <div class="section">
+            <div class="section-title">Explain why popcorn pops</div>
+            <div class="section-main">
+              to a kid who loves watching it in the microwave
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="chat-container">
+        <!-- <div class="chat my-chat">
+          <img src="./img/user.png" class="profile" />
+          <div class="chat-name">나</div>
+          <div class="chat-log">
+            뭐요ㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
+          </div>
+        </div>
+        <div class="chat gpt-chat">
+          <img src="./img/gpticon.png" class="profile" />
+          <div class="chat-name">ChatGPT</div>
+          <div class="chat-log">
+            뭐요ㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <form name="text_input">
+      <div id="chat-box">
+        <input type="text" placeholder="Message ChatGPT..." class="chat-text" />
+        <div class="button">
+          <button><img src="./img/button.png" /></button>
+        </div>
+      </div>
+      <div id="info-message">
+        ChatGPT can make mistakes. Consider checking important information.
+      </div>
+    </form>
+  </body>
+</html>
